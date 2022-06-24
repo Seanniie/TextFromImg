@@ -40,7 +40,7 @@ for (root, dirs, files) in os.walk(root_dir):
                     else:
                         resultcoupon = ''
 
-                result =img_path.replace("c:/PythonWorkspace/text_from_img/imgtest/", "")
+                result =img_path.replace("c:/PythonWorkspace/text_from_img/imgtest12/", "")
                 img_path_list.append((result,resultcoupon.replace("\n","").replace(".","").replace(",","").strip()))
                 
                 raw_data = pd.DataFrame(img_path_list)
